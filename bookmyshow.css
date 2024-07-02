@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 100px;
+}
+.search input{
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    position: relative;
+    right: 50px;
+    border-color:aquamarine;
+    outline: none;
+    padding: 0px 40px;
+}
+.search svg{
+    height: 13px;
+    width: 13px;
+    right: 10px;
+    position: relative;
+    z-index: 1;
+}
+.opt select{
+    background-color: inherit;
+    color: black;
+    border: none;
+}
+.opt button{
+    background-color: rgb(245, 30, 30);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+.navbar2{
+    background-color: aqua;
+    align-items: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar2_1 span{
+    padding: 10px;
+}
+.navbar2_3 span{
+    padding: 10px;
+}
+.image_container{
+    margin-top: 10px;
+}
+.box_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box_head1 h2{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.box_container img{
+    height: 310px;
+    width: 190px;
+}
+.next_image img{
+    margin-top: 60px;
+    width: 1025px;
+}
+.box_head2 h2{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.box_container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box_container2 img{
+    height: 200px;
+    width: 200px;
+}
+.box_container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box_head3{
+    margin-top: 60px;
+    background-color: rgb(3, 3, 51);
+    color: white;
+    margin-bottom: 10px;
+}
+.box_head3 h2, h4{
+    margin-left: 130px;
+}
+.box_container3 img{
+    margin-top: 100px;
+    border-radius: 8px;
+    height: 340px;
+    width: 200px;
+}
